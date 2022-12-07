@@ -20,19 +20,19 @@ public class Methods {
 //  }
 
   /*Arguments */
-  // public static void main(String[] args) {
-  //   System.out.println("Enter Your Numbers: ");
-  //   Scanner input = new Scanner(System.in);
-  //   int a = input.nextInt();
-  //   int b = input.nextInt();
-  //   int ans = sum2(a, b);
-  //   System.out.println("Your sum is = " + ans);
-  //  }
+  public static void main(String[] args) {
+    System.out.println("Enter Your Numbers: ");
+    Scanner input = new Scanner(System.in);
+    int a = input.nextInt();
+    int b = input.nextInt();
+    int ans = sum2(a, b);
+    System.out.println("Your sum is = " + ans);
+   }
 
-  //  static int sum2(int a, int b) {
-  //   int sum = a + b;
-  //   return sum;
-  //  }
+   static int sum2(int a, int b) {
+    int sum = a + b;
+    return sum;
+   }
 
   //Swap
   // public static void main(String[] args) {
@@ -104,27 +104,27 @@ public class Methods {
   // }
 
   // Armstrong 
-  public static void main(String[] args) {
-    // Scanner input = new Scanner(System.in);
-    // int num = input.nextInt();
-    // boolean ans = isArmstrong(num);
+  // public static void main(String[] args) {
+  //   // Scanner input = new Scanner(System.in);
+  //   // int num = input.nextInt();
+  //   // boolean ans = isArmstrong(num);
 
-    for(int i = 100; i < 1000; i++) {
-      if(isArmstrong(i)) {
-        System.out.println(i + "");
-      }
-    }
-  }
+  //   for(int i = 100; i < 1000; i++) {
+  //     if(isArmstrong(i)) {
+  //       System.out.println(i + "");
+  //     }
+  //   }
+  // }
 
-  static boolean isArmstrong(int num) {
-    int temp = num;
-    int sum = 0;
+  // static boolean isArmstrong(int num) {
+  //   int temp = num;
+  //   int sum = 0;
 
-    while(temp > 0) {
-      int rem = temp % 10;
-      sum = sum + rem * rem * rem;
-      temp /= 10;
-    }
-    return sum == num;
-  }
+  //   while(temp > 0) {
+  //     int rem = temp % 10;
+  //     sum = sum + rem * rem * rem;
+  //     temp /= 10;
+  //   }
+  //   return sum == num;
+  // }
 }
