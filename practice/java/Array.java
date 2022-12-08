@@ -30,19 +30,32 @@ public class Array {
     //   System.out.println(arr[i] + "");
     // }
 
-    // for(int num : arr) { // for every element in the array print the element
-    //   System.out.println(num + ""); //here num represent elements of the array
-    // }
+    for(int num : arr) { // for every element in the array print the element
+      System.out.print(num + " "); //here num represent elements of the array
+    }
 
     // System.out.println(Arrays.toString(arr)); 
 
     //Array of objects
-    String[] str = new String[5];
+    // String[] str = new String[5];
     
-    for(int i = 0; i < str.length; i++) {
-      str[i] = input.next();
-    }
+    // for(int i = 0; i < str.length; i++) {
+    //   str[i] = input.next();
+    // }
 
-    System.out.println(Arrays.toString(str));
+    // System.out.println(Arrays.toString(str));
+    // str[2] = "Kundan";
+    // System.out.println(Arrays.toString(str));
+
+    // Function in arrays
+    // int[] fun = {1,2,3,4,5};
+
+    // System.out.println(Arrays.toString(fun));
+    // change(fun);
+    // System.out.println(Arrays.toString(fun));
+
   }
+  // static void change(int[] arr) {
+  //   arr[3] = 7;
+  // }
 }
